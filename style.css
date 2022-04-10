@@ -35,14 +35,57 @@ a {
 }
 
 .principal {
-
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
     background-color: rgba(128, 128, 128, 0.333);
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    
+}
+
+/*            FIM DO HEADER             */
+
+.card {
+    /* display: grid; */
+    /* grid-template-columns: repeat(2,1fr); */
+    justify-content: right;
+    background-color: rgb(61, 144, 193);
 }
 
 
 
+
+
+
+
+
+
+/* .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: rgb(61, 144, 193);
+}
+
+h1{
+    background-color: beige;
+} */
+
+
+
+
+
+
+
+
+/*       FOOTER            */
+
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
