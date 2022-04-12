@@ -58,7 +58,32 @@ h1 {
 
 
 
+.descriçao{
+    width: 45%;
+    padding: 30px 400px;
+    display: inline-block;vertical-align: top;
+    background-color: rgb(220, 243, 235);
+    text-align: left;
+    font-style: italic;
+}
 
+
+.emprestimo{
+    width: 45%;
+    padding: 30px 400px;
+    display: inline-block;vertical-align: top;
+    background-color: rgb(146, 231, 201);
+    text-align: center;
+}
+
+.dinheiro{
+    width: 45%;
+    padding: 30px 400px;
+    display: inline-block;vertical-align: top;
+    background-color: rgb(220, 243, 235);
+text-align: center;
+font-style: oblique;
+}
 
 
 
@@ -95,6 +120,8 @@ footer {
     padding: top 40px;
     color: #fff;
 }
+
+
 
 .footer-content {
     display: flex;
