@@ -22,6 +22,8 @@ nav {
     align-self: center;
 }
 
+
+
 a {
     color: white;
     font-size: 90%;
@@ -56,17 +58,24 @@ a {
 button{
     height: 50px;
     width: 100px;
-    background-color: rgba(255, 187, 0, 0.842);
-    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.334);
+    border-radius: 20%;
+}
+
+button:hover{
+    background-color: rgb(203,197,247,255);
 }
 
 
 .botoes {
     position: sticky;
     top: 20px;
-    background-color: white;
+    background-color: rgb(236, 236, 236);
 }
 
+.seguro{
+    width: 400px;
+}
 
 body{
     background-color: rgb(203,197,247,255);
