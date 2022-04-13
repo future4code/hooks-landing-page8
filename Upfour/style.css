@@ -57,19 +57,23 @@ h1 {
 }
 
 
+main{
+    overflow-x: hidden;
+}
+
 
 .descriçao{
-    width: 45%;
+    width: 50%;
     padding: 30px 400px;
     display: inline-block;vertical-align: top;
     background-color: rgb(220, 243, 235);
-    text-align: left;
+    text-align: center;
     font-style: italic;
 }
 
 
 .emprestimo{
-    width: 45%;
+    width: 50%;
     padding: 30px 400px;
     display: inline-block;vertical-align: top;
     background-color: rgb(146, 231, 201);
@@ -77,31 +81,13 @@ h1 {
 }
 
 .dinheiro{
-    width: 45%;
+    width: 50%;
     padding: 30px 400px;
     display: inline-block;vertical-align: top;
     background-color: rgb(220, 243, 235);
 text-align: center;
 font-style: oblique;
 }
-
-
-
-
-
-/* .card {
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    background-color: rgb(61, 144, 193);
-}
-
-h1{
-    background-color: beige;
-} */
-
-
-
 
 
 

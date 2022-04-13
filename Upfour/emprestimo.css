@@ -43,9 +43,9 @@ a {
 }
 
 .content {
-    display: grid;
-    grid-template-columns: repeat(2 , 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(auto-fill(270px));
+    grid-template-rows: repeat(2, 1fr); */
     align-items: center;
     color: grey;
     font-size: 3em;
@@ -53,6 +53,16 @@ a {
     text-align: center;
     padding: 2%;
     background-color: rgb(203,197,247,255);
+}
+
+.img-celular{
+    margin-top:20px;
+    width: 80%;
+}
+
+#texto-simule{
+    padding: 20px;
+    color:black;
 }
 
 button{
