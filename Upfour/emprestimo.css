@@ -22,7 +22,11 @@ nav {
     align-self: center;
 }
 
-
+.titulo {
+    text-align: center;
+    margin: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 a {
     color: white;
@@ -38,44 +42,64 @@ a {
 
 .principal {
     display: grid;
-    grid-template-columns:repeat(2,1fr) ;
+    grid-template-columns: repeat(2, 1fr);
     background-color: rgba(128, 128, 128, 0.333);
 }
 
 .content {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill(270px));
-    grid-template-rows: repeat(2, 1fr); */
     align-items: center;
     color: grey;
     font-size: 3em;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     padding: 2%;
-    background-color: rgb(203,197,247,255);
+    background-color: rgb(203, 197, 247, 255);
 }
 
-.img-celular{
-    margin-top:20px;
+.img-celular {
+    margin-top: 20px;
     width: 80%;
 }
 
-#texto-simule{
-    padding: 20px;
-    color:black;
+#texto-simule {
+    background-color: rgba(11, 238, 208, 0.159);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 15px;
+    margin: 20px;
+    color: grey;
 }
 
-button{
+button {
     height: 50px;
     width: 100px;
     background-color: rgba(0, 0, 0, 0.334);
     border-radius: 20%;
 }
 
-button:hover{
-    background-color: rgb(203,197,247,255);
+button:hover {
+    background-color: rgb(203, 197, 247, 255);
 }
 
+
+.enviar{
+    background-color: white;
+    margin: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 
 .botoes {
     position: sticky;
@@ -83,10 +107,14 @@ button:hover{
     background-color: rgb(236, 236, 236);
 }
 
-.seguro{
+.seguro {
     width: 400px;
 }
 
-body{
-    background-color: rgb(203,197,247,255);
+div p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: rgb(203, 197, 247, 255);
 }

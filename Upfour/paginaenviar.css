@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 5%;
+    padding: 0px 50px;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    font-size: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.hover:hover {
+    color: darkred;
+    transition: color .10s ease;
+}
+
+nav {
+    display: flex;
+    padding: 15px;
+    align-self: center;
+}
+
+.texto{
+    text-align: center;
+    margin-top: 15%;
+    width: 100%;
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image: url(./img/pngtree-creative-synthetic-businessman-and-city-image_262777.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
+
+
