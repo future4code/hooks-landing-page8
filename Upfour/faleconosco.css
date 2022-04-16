@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}   
+
+header{
+    width: 100%;
+    padding: 2px 5%;
+    border-radius:  5px;
+    background-image: linear-gradient(rgb(247, 248, 248), rgb(167, 167, 167), rgb(243, 230, 230));    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; 
+    color: rgb(34, 36, 35);
+    text-decoration-thickness: none;
+}
+    
+   header img{
+    margin-top: 20px;
+    padding: 2px 4%;
+    width: 130px;
+}
+
+
+ .frase{
+      text-align: center;
+    display: inline;
+    vertical-align: 120%;
+    }
+   
+.faleconosco{
+    background-image: linear-gradient(rgb(247, 248, 248), rgb(167, 167, 167), rgb(243, 230, 230));
+    width: 100%;
+    padding: 2px 5%;
+}
+
+
+.faleconosco  img {
+    margin-top: 100px;
+    width: 700px;
+    margin-left: 300px;
+   
+    }
+    .button{
+        width: 80px;
+        padding-top:  4px;
+        background-position-y:  4px;
+        border-radius:  6px;
+        border-width: 10px;
+        font-size:  16px;
+         
+    }
+
+.mensagem{
+    display: block;
+    text-align:center;
+    background-image: linear-gradient(rgb(247, 248, 248), rgb(167, 167, 167), rgb(243, 230, 230));
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-top: 90px;
+    border-radius: 8px;
+}
+
+.mensagem p{
+    text-align:center;
+    font: 30px Roboto;
+    padding-bottom: 50px;
+}
+
+.mensagem form{
+    font: 25px Roboto;
+    text-align: left;
+    width: 80%;
+}
+
+fieldset{
+    border: none
+    ;
+
+}
+
+        
+.enviar{
+    float: right;
+    font: 19px Roboto;
+    padding: 7px 15px;
+    margin-right: 800px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color:rgb(77, 82, 87);
+    background:rgb(207, 208, 209);
+}
+
+.enviar:active{
+    color: rgb(76, 76, 95);
+}
+
+.enviar:hover{
+    background-color: rgb(32, 36, 35);
+}
+
