@@ -37,9 +37,15 @@
 
     }
 
-    .dinheiro-img{
-
+    .emprestimo img{
+        margin-left: 80px;
     }
+
+
+    .dinheiro img {
+        margin-left: 130px;
+    }
+
 }
 
 
