@@ -4,6 +4,7 @@
     overflow-x: hidden;
 }   
 
+
 header img{
     margin-top: 20px;
     padding: 2px 4%;
@@ -90,6 +91,7 @@ nav a:hover {
     padding-right: 180px;
     margin-top: 90px;
     border-radius: 8px;
+    justify-content: center;
 }
 
 .mensagem p{
@@ -105,9 +107,7 @@ nav a:hover {
 }
 
 fieldset{
-    border: none
-    ;
-
+    border: none;
 }
 
         
@@ -123,11 +123,8 @@ fieldset{
     background:rgb(207, 208, 209);
 }
 
-.enviar:active{
-    color: rgb(76, 76, 95);
-}
 
 .enviar:hover{
-    background-color: rgb(32, 36, 35);
+    background-color: rgb(247, 248, 248);
 }
 
